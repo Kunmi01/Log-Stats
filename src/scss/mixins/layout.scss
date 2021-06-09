@@ -1,0 +1,25 @@
+@import '../variables/units.scss';
+@import '../variables/colors.scss';
+@import './break-points.scss';
+
+@mixin component-wrapper {
+  width: 100%;
+  max-width: 1080px;
+  padding: $unit * 4 $unit * 4 $unit * 4;
+  margin: 0 auto;
+
+  @include mq-from('tablet') {
+    padding: $unit * 7 $unit * 8 $unit * 4;
+  }
+}
+
+@mixin component-header {
+  margin-bottom: $unit * 6;
+}
+
+@mixin component-inner-wrapper {
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: $unit;
+  padding: $unit * 4;
+}
