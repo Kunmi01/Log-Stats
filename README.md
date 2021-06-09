@@ -1,4 +1,4 @@
-# React-Webpack-Redux-Boilerplate
+# Log-Stats
 
 ## Project Setup
 
@@ -25,7 +25,3 @@ Bundles the app in development mode and creates the development build of the app
 ### `yarn build:prod`
 
 Bundles the app in production mode and creates the production build of the app in the `build` folder.
-
-### `yarn test`
-
-Runs all the tests for the app (using Jest & Enzyme) and outputs the results of the tests in the terminal.
