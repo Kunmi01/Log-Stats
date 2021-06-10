@@ -1,4 +1,4 @@
-# Log-Stats
+# Log-Stats-App
 
 ## Project Setup
 
